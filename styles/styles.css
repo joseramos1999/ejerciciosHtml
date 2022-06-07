@@ -1,33 +1,63 @@
-body{
-    background-color: cyan;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  background-color: cyan;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-div{
-    margin: 2%;
+div {
+  margin: 2%;
 }
 
-table{
-    text-align: center; 
-    margin-left: 2%;
+table {
+  text-align: center;
+  margin-left: 2%;
 }
 
-table, th, td{
-    background-color: aquamarine;
-    border: 1px solid black;
+table,
+th,
+td {
+  background-color: aquamarine;
+  border: 1px solid black;
 }
 
-footer{
-    color: white;
-    background-color: darkslategray;
+footer {
+  color: white;
+  background-color: darkslategray;
 }
 
-#edad:in-range{
-    background-color: green;
-    color: white;
+#edad:in-range {
+  background-color: green;
+  color: white;
 }
 
-#edad:out-of-range{
-    background-color: red;
-    color: white;
+#edad:out-of-range {
+  background-color: red;
+  color: white;
+}
+
+.bordes h2 {
+  text-align: center;
+}
+
+.bordes {
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  border-top: dotted green 5px;
+  border-bottom: solid red 5px;
+  border-left: double black 10px;
+  border-right: dashed blue 10px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.botones button{
+    margin: 5%;
 }
