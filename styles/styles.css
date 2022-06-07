@@ -1,3 +1,23 @@
 body{
     background-color: cyan;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    margin: 2%;
+}
+
+table{
+    text-align: center; 
+    margin-left: 2%;
+}
+
+table, th, td{
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+footer{
+    color: white;
+    background-color: darkslategray;
 }

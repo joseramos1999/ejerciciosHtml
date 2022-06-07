@@ -13,10 +13,18 @@
     </style>
   </head>
   <body>
+    <header id="inicio">
+      <a href="#inicio">Inicio</a>
+      <a href="#sumario">Sumario</a>
+      <a href="#encabezados">Encabezados</a>
+      <a href="pages/receta.html">Receta de patatas</a>
+      <a href="#tablas">Tablas</a>
+      <a href="#footer">Footer</a>
+    </header>
     <div>
       <h1 style="background-color:cadetblue;">Harry Potter</h1>
       <div>
-        <h2>Sumario</h2>
+        <h2 id="sumario">Sumario</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
           exercitationem aperiam. Atque, mollitia modi? Quaerat, consequatur ex
@@ -83,7 +91,7 @@
       </div>
     </div>
 
-    <div>
+    <div id="encabezados">
       <h1>Encabezado &#60;h1&#62;</h1>
       <h2>Encabezado &#60;h2&#62;</h2>
       <h3>Encabezado &#60;h3&#62;</h3>
@@ -91,5 +99,92 @@
       <h5>Encabezado &#60;h5&#62;</h5>
       <h6>Encabezado &#60;h6&#62;</h6>
     </div>
+
+    <div> <h1>Encabezado &#60;h1&#62;</h1> <h2>Encabezado &#60;h2&#62;</h2> <h3>Encabezado &#60;h3&#62;</h3> <h4>Encabezado &#60;h4&#62;</h4> <h5>Encabezado &#60;h5&#62;</h5> <h6>Encabezado &#60;h6&#62;</h6> </div>
+
+    <div id="tablas" style="display:flex; margin-bottom: 2%;">
+      <table>
+        <tbody>
+          <tr>
+            <th colspan="3">Ejercicios de tablas</th>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td colspan="3">Apartado A</td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <tbody>
+          <tr>
+            <th colspan="3">Ejercicios de tablas</th>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+          </tr>
+          <tr>
+            <td rowspan="2">4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td colspan="3">Apartado A</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="formulario">
+      <form action="https://formsubmit.co/jose1gatii@gmail.com" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" name="fecha" id="fecha">
+        <input type="submit" value="Enviar">
+      </form>
+      <br>
+      <img src="images/form.png" alt="">
+    </div>
+    <footer id="footer">
+      <span>
+        Mozilla Foundation <br>
+        1981 Landings Drive <br>
+        Building K <br>
+        Mountain View, CA 94043-0801 <br>
+        USA
+      </span>
+    </footer>
   </body>
 </html>
