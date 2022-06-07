@@ -21,3 +21,13 @@ footer{
     color: white;
     background-color: darkslategray;
 }
+
+#edad:in-range{
+    background-color: green;
+    color: white;
+}
+
+#edad:out-of-range{
+    background-color: red;
+    color: white;
+}
