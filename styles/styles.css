@@ -95,3 +95,60 @@ caption{
   box-shadow: 1px 1px black;
 }
 
+.tarea11{
+  background-color: greenyellow;
+  width: 250px;
+  height: 250px;
+  overflow: auto;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outline{
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: black dotted 15px;
+}
+
+.outline:hover{
+  outline: gold dashed 15px;
+}
+
+.cuadradorojo{
+  background-color: red;
+  border: 5px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+.circulos{
+  position: relative;
+  background-color: greenyellow;
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.uno{
+  margin-top: -6%;
+  margin-left: -6%;
+}
+.dos{
+  margin-top: -14%;
+  margin-left: 95%;
+}
+.tres{
+  margin-top: 90%;
+  margin-left: -6%;
+}
+.cuatro{
+  margin-top: -14%;
+  margin-left: 95%;
+}
+
