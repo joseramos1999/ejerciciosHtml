@@ -1,5 +1,5 @@
 body {
-    background-color: cyan;
+    background-color: lightblue;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
@@ -249,4 +249,62 @@ caption {
     width: 300px;
     position: absolute;
     height: 5px;
+}
+
+.tarea15 {
+    text-align: justify;
+}
+
+.tarea15 img {
+    float: right;
+    margin-left: 2%;
+}
+
+.colores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.crojo {
+    background-color: red;
+}
+
+.cverde {
+    background-color: green;
+}
+
+.cazul {
+    background-color: blue;
+}
+
+.crosa {
+    background-color: magenta;
+}
+
+.ccyan {
+    background-color: cyan;
+}
+
+.camarillo {
+    background-color: yellow;
+}
+
+.center {
+    text-align: center;
+    margin-top: 5%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
 }
