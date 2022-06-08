@@ -15,7 +15,6 @@ table {
 table,
 th,
 td {
-  background-color: aquamarine;
   border: 1px solid black;
 }
 
@@ -50,18 +49,49 @@ footer {
   border-right: dashed blue 10px;
 }
 
-.botones{
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    margin: auto;
-    text-align: center;
+.botones {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+  text-align: center;
 }
 
-.botones button{
-    margin: 5%;
+.botones button {
+  margin: 5%;
 }
 
-.tabla{
-    margin: auto;
+.tabla {
+  margin: auto;
+  border: 4px solid black;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: burlywood;
+  width: 50%;
 }
+
+caption{
+  background-color: blue;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: white;
+}
+
+.titulos th{
+  padding-top: 10px;
+}
+
+.iva{
+  background-color: blue !important;
+  color: white;
+}
+
+.tabla th{
+  border: none;
+}
+
+.tabla td{
+  border: none;
+  box-shadow: 1px 1px black;
+}
+
